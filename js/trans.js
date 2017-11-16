@@ -56,10 +56,8 @@ function setLang(lang) {
     } else {
         document.body.classList.remove('rtl');
     }
-
     translatePage();
 }
-
 
 function doDelete() {
     confirm(getTrans('SURE'));
