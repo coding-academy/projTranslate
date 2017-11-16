@@ -4,7 +4,8 @@ var gTrans = {
         SITE_TITLE : 'Deleting Stuff',
         SITE_SUBTITLE: 'Put the past behind',
         SURE : 'Are you sure?',
-        DELETE: 'Delete Now'
+        DELETE: 'Delete Now',
+        COPY: 'Copy This'
     },
     sp : {
         SITE_TITLE : 'Eliminando cosas',
