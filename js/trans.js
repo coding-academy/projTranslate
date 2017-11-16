@@ -62,9 +62,8 @@ function setLang(lang) {
 
 
 function doDelete() {
-    confirm(getTrans('SURE'))
+    confirm(getTrans('SURE'));
 }
-
 
 function getParamFromURL(name) {
     var url = window.location.href;
