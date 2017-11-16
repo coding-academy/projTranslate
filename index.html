@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Language Changer</title>
+    <script src="js/trans.js"></script>
+    <style>
+        .rtl {direction: rtl}
+    </style>
+</head>
+
+<body onload="init()">
+    <main>
+        <h1 data-trans="SITE_TITLE">Deleting Stuff</h1>
+        <h3 data-trans="SITE_SUBTITLE">Put the past behind</h3>
+        <button data-trans="DELETE" onclick="doDelete()">Delete</button>
+    </main>
+
+    <footer>
+        <hr>
+        <select class="selectLang" onchange="setLang(this.value)">
+            <option value="en">English</option>
+            <option value="sp">Spanish</option>
+            <option value="he">Hebrew</option>
+        </select>
+    </footer>
+</body>
+
+</html>
