@@ -16,7 +16,8 @@ var gTrans = {
         SITE_TITLE : 'כולנו מחוקים',
          SITE_SUBTITLE: 'שים את זה מאחור',
         SURE : 'סגור על זה נשמה?',
-        DELETE: 'השמד'
+        DELETE: 'השמד',
+        MUKI: ''
     }
 };
 
